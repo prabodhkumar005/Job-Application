@@ -23,7 +23,7 @@ const ApplicantsTable = () => {
 
     const statusHandler = async (status, id) => {
         try {
-            const res = await axios.post(`https://job-portal-9hg2.onrender.com/api/v1/application/status/${id}/update`, {status}, {
+            const res = await axios.post(`https://job-application-q56k.onrender.com/api/v1/application/status/${id}/update`, {status}, {
                 withCredentials: true
             });
             if(res.data.success){ 

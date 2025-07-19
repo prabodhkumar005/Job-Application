@@ -47,7 +47,7 @@ const Singup = () => {
   try {
     dispatch(setLoading(true));
 
-    const res = await axios.post("https://job-portal-9hg2.onrender.com/api/v1/user/register", formData, {
+    const res = await axios.post("https://job-application-q56k.onrender.com/api/v1/user/register", formData, {
       headers: {
         "Content-Type": "multipart/form-data"
       },

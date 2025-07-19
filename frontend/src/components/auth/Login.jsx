@@ -28,7 +28,7 @@ const Login = () => {
         
         try {
             dispatch(setLoading(true));
-            const res = await axios.post("https://job-portal-9hg2.onrender.com/api/v1/user/login", input, {
+            const res = await axios.post("https://job-application-q56k.onrender.com/api/v1/user/login", input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },

@@ -17,7 +17,7 @@ const Applicants = () => {
         const fetchAllApplicants = async () => {
             try {
                 axios.defaults.withCredentials = true;
-                const res = await axios.get(`https://job-portal-9hg2.onrender.com/api/v1/application/${id}/applicants`);
+                const res = await axios.get(`https://job-application-q56k.onrender.com/api/v1/application/${id}/applicants`);
                 if (res.data.success) {
                     dispatch(setAllApplicants(res.data.job));
                 }

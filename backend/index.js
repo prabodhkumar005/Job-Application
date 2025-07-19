@@ -23,7 +23,7 @@ const __dirname = path.resolve(); // corrected spelling
 
 // ✅ CORS Configuration for both local dev and production
 app.use(cors({
-  origin: 'https://job-portal-9hg2.onrender.com',
+  origin: 'https://job-application-q56k.onrender.com',
   credentials: true
 }));
 
